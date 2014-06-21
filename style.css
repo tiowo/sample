@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width : 100%
+}
+body{
+font-family:serif;
+background:white;
+text-align:center;
+}
+
+#haikei,#blog,#illust{
+width: 80%;
+height:auto;
+position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 1000%;
+  -ms-interpolation-mode: nearest-neighbor;   
+  image-rendering: -webkit-optimize-contrast; 
+  image-rendering: -moz-crisp-edges;          
+  image-rendering: -o-crisp-edges;            
+  image-rendering: crisp-edges;               
+  image-rendering: pixelated;                 
+}
+
+#test{/* jsつかわんとできるきしない。後回しのほうがいいかも。 */
+width: 10%;
+height:auto;
+position: absolute;
+  top: 0;
+  bottom: 0;
+  /*
+  left: 0;
+  right: 0; */
+  margin: auto;
+  max-width: 100%;
+  max-height: 1000%;
+  -ms-interpolation-mode: nearest-neighbor;   
+  image-rendering: -webkit-optimize-contrast; 
+  image-rendering: -moz-crisp-edges;          
+  image-rendering: -o-crisp-edges;            
+  image-rendering: crisp-edges;               
+  image-rendering: pixelated;                 
+}
+
+
+
+/*
+コメント
+*/

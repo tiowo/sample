@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<!--コメント-->
+<head>
+<meta charset="utf-8">
+<title>つまつま</title>
+<link rel = "stylesheet" href="style.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</head>
+
+<body>
+<!-- <ruby>準備中<rp>(</rp><rt>失楽の楽園</rt><rp>)</rp></ruby>なう(・ω・*)-->
+
+<img  id = "haikei" src = "img/a.gif">
+<img  id = "haikei" src = "img/kanban.png">
+
+<img  id = "blog" src = "img/blog.png">
+<img  id = "blog" src = "img/illust.png"
+onmouseover="this.src='img/illust2.png'" onmouseout="this.src='img/illust.png'"
+>
+<img  id = "test" src = "img/illusttest.png"
+onmouseover="this.src='img/illusttest2.png'" onmouseout="this.src='img/illusttest.png'"
+>
+<script type="text/javascript"><!--
+if(navigator.userAgent.indexOf("Chrome")>0)
+$(window).load(function(w,h,c,x,y){w="width";h="height";
+$("img")
+.map(function(v,d){c=$("<canvas>")[0];x=c[w]=d[w];y=c[h]=d[h];v=c.getContext("2d");
+v.webkitImageSmoothingEnabled=!1;v.drawImage(d,0,0,x,y);$(c).replaceAll(d)})})
+--></script><!--クロムでの画像処理-->
+
+
+</body>
+</html>
